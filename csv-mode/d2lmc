@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: d2lmc
-# key: d2lmcx
+# key: d2lmc
+# D2L Multiple Choice Question Template
 # --
 NewQuestion,MC,
 ID,${}

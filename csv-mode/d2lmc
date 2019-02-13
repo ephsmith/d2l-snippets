@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: d2lmc
+# key: d2lmc
+# --
+NewQuestion,MC,
+QuestionText,"$1",
+Points,1,
+Difficulty,1,
+Option,$2,"$3",,
+Option,$4,"$5",,
+Option,$6,"$7",,
+Option,$8,"$9",,
+
+$0

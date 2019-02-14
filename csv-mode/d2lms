@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: d2lms
+# key: d2lms
+# D2L Multi-select template
+# --
+NewQuestion,MS,,,
+ID,${}
+Title,${"Title text"},,,
+QuestionText,${"This is the question text for"},,,
+Points,${1},,,
+Difficulty,${1},,,
+Image,${images/MS1.jpg},,,
+Scoring,RightAnswers,,,
+Option,${1},${"This is option 1 text"},,${"This is feedback for option 1"}
+Option,${0},${"This is option 2 text"},,${"This is feedback for option 2"}
+Option,1,${"This is option 3 text"},,${"This is feedback for option 3"}
+Hint,${"This is the hint text"},,,
+Feedback ,${"This is the feedback text"},,,
+
+$0

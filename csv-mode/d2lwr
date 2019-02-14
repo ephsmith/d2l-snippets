@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: d2lwr
+# key: d2lwr
+# D2L written response question snippet
+# --
+
+NewQuestion,WR
+ID,${}
+Title,${"Title Text"}
+QuestionText,${"This is the question text"}
+Points,${1}
+Difficulty,${1}
+Image,${images/LA1.jpg}
+InitialText,${"This is the initial text"}
+AnswerKey,${"This is the answer key text"}
+Hint,${"This is the hint text"}
+Feedback,${"This is the feedback text"}
+
+$0

@@ -5,12 +5,14 @@
 # --
 NewQuestion,TF,,,
 ID,${}
-Title,${Question Title},,,
-QuestionText,${Question text},,,
+Title,${"Question Title"},,,
+QuestionText,${"Question text"},,,
 Points,${1},,,
 Difficulty,${1},,,
 Image,${images/TF1.jpg},,,
-TRUE,${100},${This is feedback for 'TRUE'},,
-FALSE,${0},${This is feedback for 'FALSE'},,
-Hint,${This is the hint text},,,
-Feedback,${This is the feedback text},,,
+TRUE,${100},${"This is feedback for 'TRUE'"},,
+FALSE,${0},${"This is feedback for 'FALSE'"},,
+Hint,${"This is the hint text"},,,
+Feedback,${"This is the feedback text"},,,
+
+$0

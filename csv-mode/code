@@ -4,6 +4,4 @@
 # group: D2L
 # Source code styling for D2L CSV import
 # --
-<pre style='font-size: 1em;'>
-${Source goes here}
-</pre>
+<pre style='font-size: 1em;'>${Source goes here. Newlines allowed}</pre>

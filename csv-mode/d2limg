@@ -1,13 +1,14 @@
 # -*- mode: snippet -*-
 # name: d2limg
 # key: d2limg
+# group: D2L
 # D2L Image question snippet
 # --
 
 NewQuestion,IMG
 ID,${}
-Title,${This is an Image}
+Title,${"This is an Image"}
 Image,${images/SA1.jpg}
-Caption,${This is my image}
+Caption,${"This is my image"}
 
 $0

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: d2ltf
 # key: d2ltf
+# group: D2L
 # D2L True/False Question Snippet
 # --
 NewQuestion,TF,,,

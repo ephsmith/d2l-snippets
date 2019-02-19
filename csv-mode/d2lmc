@@ -1,20 +1,21 @@
 # -*- mode: snippet -*-
 # name: d2lmc
 # key: d2lmc
+# group: D2L
 # D2L Multiple Choice Question Template
 # --
 NewQuestion,MC,
 ID,${}
 Title,"${Title Text}",
-QuestionText,"${Question text}",
+QuestionText,"${Question text}", HTML
 Points,${1},
 Difficulty,${1},
 Image,${images/MC1.jpg},
-Option,${100},"${This is the correct answer}",,"${This is feedback for option 1}"
-Option,${0},"${This is incorrect answer 1}",,"${This is feedback for option 2}"
-Option,${0},"${This is incorrect answer 2}",,"${This is feedback for option 3}"
-Option,${25},"${This is partially correct}",,"${This is feedback for option 4}"
-Hint,"${This is the hint text}",,,
-Feedback,"${This is the feedback text}",,,
+Option,${100},"${This is the correct answer}",HTML,"${This is feedback for option 1}"
+Option,${0},"${This is incorrect answer 1}",HTML,"${This is feedback for option 2}"
+Option,${0},"${This is incorrect answer 2}",HTML,"${This is feedback for option 3}"
+Option,${25},"${This is partially correct}",HTML,"${This is feedback for option 4}"
+Hint,"${This is the hint text}",HTML,,
+Feedback,"${This is the feedback text}",HTML,,
 
 $0

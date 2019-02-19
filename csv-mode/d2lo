@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: d2lo
 # key: d2lo
+# group: D2L
 # D2L Ordering question snippet
 # --
 NewQuestion,O,,,

@@ -51,6 +51,12 @@ Alternatively, you can just enable =yasnippet= globally by adding this line to y
 
 I prefer the latter because =yasnippet= doesn't get in the way of modes I already use and it allows me the freedom to create a snippet for any mode at any time.
 
+** Finally...
+Reload the snippet directory contents.  In emacs,
+
+#+BEGIN_EXAMPLE
+M-x yas-reload-all RET
+#+END_EXAMPLE
 
 ** Usage
 These snippets are only active in =csv-mode=. With the exception of the =code= snippet, all snippets have a /key/ that begins with /d2l/ and ends with the D2L question type descriptor--as seen in the sample question template.

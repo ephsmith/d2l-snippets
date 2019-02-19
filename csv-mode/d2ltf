@@ -7,13 +7,13 @@
 NewQuestion,TF,,,
 ID,${}
 Title,${"Question Title"},,,
-QuestionText,${"Question text"},,,
+QuestionText,${"Question text"},HTML,,
 Points,${1},,,
 Difficulty,${1},,,
 Image,${images/TF1.jpg},,,
-TRUE,${100},${"This is feedback for 'TRUE'"},,
-FALSE,${0},${"This is feedback for 'FALSE'"},,
-Hint,${"This is the hint text"},,,
-Feedback,${"This is the feedback text"},,,
+TRUE,${100},${"This is feedback for 'TRUE'"},HTML,
+FALSE,${0},${"This is feedback for 'FALSE'"},HTML,
+Hint,${"This is the hint text"},HTML,,
+Feedback,${"This is the feedback text"},HTML,,
 
 $0

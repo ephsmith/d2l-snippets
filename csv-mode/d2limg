@@ -9,6 +9,6 @@ NewQuestion,IMG
 ID,${}
 Title,${"This is an Image"}
 Image,${images/SA1.jpg}
-Caption,${"This is my image"}
+Caption,${"This is my image"},HTML
 
 $0

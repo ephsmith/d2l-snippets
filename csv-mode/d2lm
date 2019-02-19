@@ -9,18 +9,18 @@
 NewQuestion,M,,
 ID,${}
 Title,${"Title Text"},,
-QuestionText,${"Question text"},,
+QuestionText,${"Question text"},HTML,
 Points,${1},,
 Difficulty,${1},,
 Image,${images/mc1.jpg},,
 Scoring,EquallyWeighted,,
-Choice,1,${"This is choice 1 text"},
-Choice,2,${"This is choice 2 text"},
-Choice,3,${"This is choice 3 text"},
-Match,1,${"This matches with choice 1"}
-Match,2,${"This matches with choice 2"}
-Match,3,${"This matches with choice 3"}
-Hint,${"This is the hint text"},
-Feedback,${"This is the feedback text"},
+Choice,1,${"This is choice 1 text"},HTML
+Choice,2,${"This is choice 2 text"},HTML
+Choice,3,${"This is choice 3 text"},HTML
+Match,1,${"This matches with choice 1"},HTML
+Match,2,${"This matches with choice 2"},HTML
+Match,3,${"This matches with choice 3"},HTML
+Hint,${"This is the hint text"},HTML
+Feedback,${"This is the feedback text"},HTML
 
 $0

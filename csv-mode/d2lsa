@@ -8,14 +8,14 @@
 NewQuestion,SA
 ID,${}
 Title,${"Title text"}
-QuestionText,${"This is the question text"}
+QuestionText,${"This is the question text"}, HTML
 Points,${1}
 Difficulty,${1}
 Image,${images/SA1.jpg}
 InputBox,${3},${40},
 Answer,${100},${"This is the text for answer 1"},${regexp}
 Answer,${50},${"This is the text for answer 2"},${regexp}
-Hint,${"This is the hint text"},,
-Feedback,${"This is the feedback text"},,
+Hint,${"This is the hint text"},HTML,
+Feedback,${"This is the feedback tetx"},HTML,
 
 $0

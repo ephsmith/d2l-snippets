@@ -1,0 +1,56 @@
+* Description
+This collection of snippets is useful for authoring CSV formatted questions for import into the D2L / Brightspace LMS. There are snippets for every question type detailed in the sample question template provided by D2L/Brightspace.
+* Installation
+** Prerequisites
+The only prerequisites are:
+
+- an yasnippet compatible editor (Emacs, Aquamacs, Spacemacs, etc.)
+- working yasnippet installation.
+
+** Download the repository
+
+You can download the repository or simply clone it into a directory of your choosing.
+
+#+BEGIN_SRC bash
+git clone https://github.com/ephsmith/d2l-snippets
+#+END_SRC
+
+*** If you chose "Download ZIP"
+
+Unzip the download.
+
+** Determine your snippet directory
+Your custom snippets should be installed to a custom snippet directory--not the default yasnippet snippet dir.
+
+In Aquamacs/Emacs, you can view and customize the =yas-snippet-dirs= variable with the following:
+
+#+BEGIN_EXAMPLE
+M-x customize-variable RET yas-snippet-dirs
+#+END_EXAMPLE
+
+
+** Copy the snippets to your snippet dir
+
+The snippets are =csv-mode= snippets and should be installed into a directory of the same name under your snippet dir.
+
+- If you don't already have a =csv-mode= directory in your snippet directory, then simply copy the entire =csv-mode= directory from the repository to your snippet directory.
+- If you already have a =csv-mode= directory, copy only the /contents/ of the =csv-mode= directory over.
+
+** Assert that yasnippet is enabled for CSV mode
+To enable =yasnippet= for =csv-mode= only, add the following to your emacs config file:
+
+#+BEGIN_SRC lisp
+(add-hook 'org-mode-hook 'yas-minor-mode-on)
+#+END_SRC
+
+Alternatively, you can just enable =yasnippet= globally by adding this line to your emacs config:
+
+#+BEGIN_SRC lisp
+(yas-global-mode 1)
+#+END_SRC
+
+I prefer the latter because =yasnippet= doesn't get in the way of modes I already use and it allows me the freedom to create a snippet for any mode at any time.
+
+
+** Usage
+These snippets are only active in =csv-mode=. With the exception of the =code= snippet, all snippets have a /key/ that begins with /d2l/ and ends with the D2L question type descriptor--as seen in the sample question template.

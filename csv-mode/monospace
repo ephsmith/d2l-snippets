@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: monospace
+# key: <tt>
+# group: csv
+# --
+<tt>${}</tt>$0

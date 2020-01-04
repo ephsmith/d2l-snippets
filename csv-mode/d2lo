@@ -6,16 +6,16 @@
 # --
 NewQuestion,O,,,
 ID,${}
-Title,${"Title Text"},,,
-QuestionText,${"This is the question text for O1"},HTML,,
+Title,"${Title Text}",,,
+QuestionText,"${This is the question text for O1}",HTML,,
 Points,${1},,,
 Difficulty,${1},,,
 Scoring,RightMinusWrong,,,
 Image,${images/O1.jpg},,,
-Item,${"This is the text for item 1"}, HTML,This is feedback for option 1,
-Item,${"This is the text for item 2"}, HTML,This is feedback for option 2,
-Item,${"This is the text for item 3"}, HTML,This is feedback for option 3,
-Item,${"This is the text for item 4"}, HTML,This is feedback for option 4,
-Item,${"This is the text for item 5"}, HTML,This is feedback for option 5,
-Hint,${"This is the hint text"}, HTML
-Feedback,${"This is the feedback text"}, HTML
+Item,"${This is the text for item 1}", HTML,This is feedback for option 1,
+Item,"${This is the text for item 2}", HTML,This is feedback for option 2,
+Item,"${This is the text for item 3}", HTML,This is feedback for option 3,
+Item,"${This is the text for item 4}", HTML,This is feedback for option 4,
+Item,"${This is the text for item 5}", HTML,This is feedback for option 5,
+Hint,"${This is the hint text}", HTML
+Feedback,"${This is the feedback text}", HTML

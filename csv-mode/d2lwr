@@ -7,14 +7,14 @@
 
 NewQuestion,WR
 ID,${}
-Title,${"Title Text"}
-QuestionText,${"This is the question text"}, HTML
+Title,"${Title Text}"
+QuestionText,"${This is the question text}", HTML
 Points,${1}
 Difficulty,${1}
 Image,${images/LA1.jpg}
-InitialText,${"This is the initial text"}, HTML
-AnswerKey,${"This is the answer key text"}, HTML
-Hint,${"This is the hint text"}, HTML
-Feedback,${"This is the feedback text"}, HTML
+InitialText,"${This is the initial text}", HTML
+AnswerKey,"${This is the answer key text}", HTML
+Hint,"${This is the hint text}", HTML
+Feedback,"${This is the feedback text}", HTML
 
 $0

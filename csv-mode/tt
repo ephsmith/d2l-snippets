@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: monospaced
+# key: <tt
+# --
+<tt>${}</tt>$0
